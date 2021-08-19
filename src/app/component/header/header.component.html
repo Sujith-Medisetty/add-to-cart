@@ -1,0 +1,17 @@
+<div class="navbar fixed-top navbar-dark bg-primary px-3 mb-3" style="box-shadow: 5px 5px 25px lightblue;">
+    <a routerLink="product" class="navbar-brand">
+        <i class="fa fa-shipping-fast px-3"></i>
+        <strong class="">AMAZON</strong>
+    </a>
+    <ul class="navbar-nav me-auto ps-3">
+        <li class="nav-item">
+            <a href="" class="nav-link active" routerLink="product">Home</a>
+        </li>
+    </ul>
+    <div class="d-flex">
+        <a class="me-5 pe-4" routerLink="cart">
+            <i style="font-size: 20px;color:white;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 12px;position: absolute;top:9px" class="badge">{{itemcount}}</div>
+        </a>
+    </div>
+</div>
